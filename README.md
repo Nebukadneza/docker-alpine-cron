@@ -1,5 +1,7 @@
 # docker-alpine-cron
 
+Forked this from xordiv/docker-alpine-cron. It's mostly the same except for the fact that I dervie from alpine 3.8. Also, I decided to push my version to [dockerhub](https://hub.docker.com/r/jillesvangurp/docker-alpine-cron/). The version of xordiv/docker-alpine-cron on dockerhub is behind what I forked and does not include curl.
+
 Dockerfile and scripts for creating image with Cron based on Alpine  
 Installed packages: dcron wget rsync ca-certificates  
 
